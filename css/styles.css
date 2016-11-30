@@ -45,3 +45,117 @@ p {
     filter: alpha(opacity=60) progid:DXImageTransform.Microsoft.Alpha(opacity=60) progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3C93C',endColorstr='#682B82' , GradientType=1);
 }
 
+/*--------------------------------------------------------------
+# My CSS
+--------------------------------------------------------------*/
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+.large-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+header, footer {
+  padding-top: 15px;
+  width: 100%;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+}
+header h1, footer h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  color: #fff;
+}
+.corner {
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  top: 18px;
+  left: 84%;
+}
+ul{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+footer li {
+  width: 25%;
+}
+aside {
+  width: 20%;
+  overflow-x: hidden;
+}
+.content {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.content h2 {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}
+.content section {
+  width: 30%;
+}
+.policy h6 {
+  background-color: grey;
+}
+.business h6 {
+  background-color: red;
+}
+.news h6 {
+  background-color: yellow;
+}
+.science h6 {
+  background-color: orange;
+}
+.travel h6 {
+  background-color: green;
+}
+.other h6 {
+  background-color: black;
+}
+.label-display {
+
+}
+.content h6 {
+  color: white;
+  text-align: left;
+  padding: 5px 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.inside-text {
+  text-align: center;
+  font-size: 6em;
+  margin-bottom: 0;
+  font-weight: 900;
+  color: black;
+}
+.box {
+  border: 1px solid #bbb;
+}
+button {
+  float: right;
+}
+footer {
+  margin-top: 100px;
+}
+footer section {
+  border-top: 1px solid white;
+  width: 100%;
+  padding-top: 9px;
+  padding-bottom: 0.5px;
+}
