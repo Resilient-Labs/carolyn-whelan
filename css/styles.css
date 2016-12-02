@@ -137,12 +137,9 @@ aside {
   margin-top: 0;
   margin-bottom: 0;
 }
-.inside-text {
-  text-align: center;
-  font-size: 6em;
-  margin-bottom: 0;
-  font-weight: 900;
-  color: black;
+.content img {
+  width: 100%;
+}
 }
 .box {
   border: 1px solid #bbb;
@@ -158,4 +155,16 @@ footer section {
   width: 100%;
   padding-top: 9px;
   padding-bottom: 0.5px;
+}
+
+@media query only screen and (max-width:540px) or (min-device-width: 0px) and (max-device-width: 540px) {
+
+}
+@media query (min-width:540px) and (max-width:768px) or (min-device-width:540px ) and (max-device-width: 768px){
+
+}
+@media query (min-width:768px) and (max-width:1020px) or (min-device-width: 768px) and (max-device-width: 1020px ) {
+  .content section {
+      width: 33%;
+    }
 }
