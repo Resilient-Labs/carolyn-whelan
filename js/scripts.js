@@ -12,7 +12,7 @@ $scope.articles = [
     date: "June 24, 2011",
     description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
     link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
-    hasPDF:false
+    className:"public-policy"
   },
   {
     category:"Business",
@@ -21,7 +21,7 @@ $scope.articles = [
     date: "June 24, 2011",
     description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
     link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
-    hasPDF:false
+    className:"business"
   },
   {
     category:"News",
@@ -30,7 +30,7 @@ $scope.articles = [
     date: "June 24, 2011",
     description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
     link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
-    hasPDF:false
+    className:"news"
   },
   {
     category:"Science",
@@ -39,7 +39,7 @@ $scope.articles = [
     date: "June 24, 2011",
     description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
     link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
-    hasPDF:false
+    className:"science"
   },
   {
     category:"Travel",
@@ -48,7 +48,7 @@ $scope.articles = [
     date: "June 24, 2011",
     description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
     link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
-    hasPDF:false
+    className:"travel"
   },
   {
     category:"Other",
@@ -57,7 +57,7 @@ $scope.articles = [
     date: "June 24, 2011",
     description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
     link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
-    hasPDF:false
+    className:"other"
   }
 ];
 });

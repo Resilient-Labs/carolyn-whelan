@@ -32,30 +32,30 @@
       </nav>
     </div>
   </header>
-  <div class="large-wrapper">
-    <aside>
-      <div class="photo">
-      </div>
-      <div class="box">
-        <h3>Carolyn Whelan</h3>
-        <span>Writer, Editor, Analyst</span>
-        <p>Accomplished writer/editor published in International Herald Tribune, New York Times, Fortune, Wall Street Journal, Newsweek, Barron's, Sci-Am.com and National Geographic Adventure. Widely respected analyst with rigorous investigative skills deployed by consulting firms, non-profits, the UN and corporations to evaluate results and identify investment opportunities.</p>
-        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="#">CV</a>
-      </div>
-    </aside>
-    <section class="content">
-      <h2>Featured Articles</h2>
-      <section ng-repeat="article in articles">
-        <div class="ng-class: {{article.className}} box" >
-            <a href="#"><h6>{{article.category}}</h6></a>
-            <img ng-src="img/{{article.logo}}">
-        </div>
-        <h4><a href="">{{article.title}}</a></h4>
-        <h5>{{article.date}}</h5>
-        <p>{{article.description}}</p>
-        <button type="button" name="button"><a target="_blank" href="{{article.link}}">Read More</a></button>
-      </section>
+  <div class="med-wrapper">
+    <section class="circle-picture">
+
+    </section>
+    <section class="self-bio">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat
+purus eu lorem convallis feugiat. Quisque aliquam non nisl a maximus.
+Morbi porttitor dignissim lectus vitae lobortis. Maecenas at est euismod,
+congue purus at, pellentesque purus. Etiam quis sagittis velit. Quisque
+mollis sollicitudin imperdiet. Nam tristique varius ornare. Vestibulum et
+nibh ex. Pellentesque ut diam nibh. Nullam facilisis congue nisl, ac
+efficitur ex rutrum sed. Suspendisse viverra lectus nec dui blandit mattis.
+Pellentesque ut elit felis. Proin lectus arcu, tristique id erat vel, viverra
+condimentum erat. Aenean eu risus vitae lacus porta cursus. Quisque at
+purus ut libero sodales feugiat. Vestibulum mattis ullamcorper varius.
+Integer vitae purus fermentum erat tincidunt porta sit amet vestibulum
+tortor. Quisque ipsum enim, lacinia rutrum tellus nec, varius maximus
+velit. Sed quis mi auctor, pellentesque nisi et, venenatis enim. Maecenas
+at dictum tellus.
+Mauris libero ligula, porta eu porttitor eu, sagittis nec nulla. Aliquam dolor
+tellus, ultricies sed iaculis at, imperdiet nec magna. Fusce vitae
+condimentum justo. Ut faucibus sapien diam, a mollis risus fermentum
+aliquam.</p>
     </section>
   </div>
   <footer>
@@ -73,11 +73,11 @@
         <li><a href="#">Other</a></li>
       </ul>
     </div>
-      <section>
-        <div class="wrapper">
-          <p>&copy; 2016 Carolyn Whelan +1 646-549-3108. carowhelan@gmail.com. Designed and built by a <span>Resilient Coder</span>.</p>
-        </div>
-      </section>
+    <section>
+      <div class="wrapper">
+        <p>&copy; 2016 Carolyn Whelan +1 646-549-3108. carowhelan@gmail.com. Designed and built by a <span>Resilient Coder</span>.</p>
+      </div>
+    </section>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js">
   </script>
