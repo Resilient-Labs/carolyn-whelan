@@ -72,18 +72,16 @@ p {
 header, footer {
   padding-top: 15px;
   width: 100%;
-  background-color: #4062BB;
-  color: #fff;
   text-align: center;
 }
-header h1, footer h2 {
+header h2,footer h2 {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
-  color: #fff;
 }
 header{
   margin-bottom: 40px;
+  background-color: #fff;
 }
 .corner {
   display: flex;
@@ -102,10 +100,26 @@ ul{
     padding-bottom: 15px;
 }
 ul a {
-  color: white;
+  color: #4062BB;
+}
+header ul {
+
+}
+header ul li {
+
+}
+header ul li a{
+  font-size: 22px;
+  font-weight: bold;
+}
+footer a {
+  color: #fff;
 }
 footer li {
   width: 25%;
+}
+footer h2 {
+  color: #fff;
 }
 aside {
   width: 20%;
@@ -185,6 +199,8 @@ button {
 }
 footer {
   margin-top: 100px;
+  color: white;
+  background-color: grey;
 }
 footer section {
   border-top: 1px solid white;
@@ -219,6 +235,48 @@ button {
 .self-bio {
   width: 50%;
 }
+.smaller img {
+  width: 100%;
+}
+.smaller h6 {
+  margin-top: 0;
+  padding: 5px 15px;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.container h3 {
+  width: 100%;
+}
+.container > section {
+  width: 22%;
+  margin-bottom: 30px;
+}
+.style {
+  border: 2px solid black;
+  height: 2px;
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.centered-links{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.centered-links a{
+  font-size: 26px;
+  margin-right: 25px;
+  color: #4062BB;
+}
 
 /*--------------------------------------------------------------
 # Media Queries
@@ -246,6 +304,9 @@ button {
   }
   .large-wrapper {
     flex-flow: column;
+  }
+  .container > section {
+    width: 31%;
   }
 }
 @media  (max-width:1024px) and (orientation:portrait) {
@@ -275,6 +336,9 @@ button {
   }
   .large-wrapper {
     flex-flow: column;
+  }
+  .container > section {
+    width: 40%;
   }
 }
 
@@ -308,7 +372,9 @@ button {
   .self-bio {
     width: 100%;
   }
-
+  .container > section {
+    width: 40%;
+  }
 }
 @media  (max-width:767px) and (orientation:portrait) {
   header {
@@ -342,10 +408,16 @@ button {
     text-align: center;
     width: 100%;
   }
+  aside .box > p {
+    text-align: left;
+  }
   ul {
     display: none;
   }
   .self-bio {
+    width: 100%;
+  }
+  .container > section {
     width: 100%;
   }
 }
