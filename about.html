@@ -11,6 +11,24 @@
 </head>
 <body ng-controller="featuredCtrl">
   <header>
+    <button class="hamburgerNav">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <section class="mobileNav">
+      <button class="cross">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="currentpg">About</a></li>
+        <li><a href="public-policy.html">Public Policy</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="business.html">Business</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="other.html">Other</a></li>
+      </ul>
+    </section>
     <div class="wrapper">
       <h1>Carolyn Whelan</h1>
       <span>Writer, Editor, Analyst</span>
@@ -21,7 +39,7 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="about.html" class="currentpg">About</a></li>
           <li><a href="public-policy.html">Public Policy</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="travel.html">Travel</a></li>
@@ -89,7 +107,11 @@ aliquam.</p>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.min.js">
   </script>
   <script type="text/javascript" src="js/scripts.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

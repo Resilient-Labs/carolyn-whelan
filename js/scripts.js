@@ -7,7 +7,7 @@ app.controller('featuredCtrl', function($scope) {
   $scope.articles = [
     {
       category: "Public Policy",
-      publication:" ",
+      publication:"EIU",
       featured:true,
       logo:"fortune-logo.jpg",
       title:"Brewing a better beer for Africa",
@@ -67,7 +67,7 @@ app.controller('featuredCtrl', function($scope) {
     },
     {
       category:"Business",
-      publication:"Internation Herald Tribune",
+      publication:"WSJ",
       featured:false,
       logo:"fortune-logo.jpg",
       title:"Brewing a better beer for Africa",
@@ -79,7 +79,7 @@ app.controller('featuredCtrl', function($scope) {
     },
     {
       category:"Business",
-      publication:"Fortune",
+      publication:"Barrons",
       featured:false,
       logo:"fortune-logo.jpg",
       title:"Brewing a better beer for Africa",
@@ -127,7 +127,7 @@ app.controller('featuredCtrl', function($scope) {
     },
     {
       category:"News",
-      publication:" ",
+      publication:"Newsweek",
       featured:true,
       logo:"fortune-logo.jpg",
       title:"Brewing a better beer for Africa",
@@ -139,7 +139,7 @@ app.controller('featuredCtrl', function($scope) {
     },
     {
       category:"Science",
-      publication:" ",
+      publication:"sciAm",
       featured:true,
       logo:"fortune-logo.jpg",
       title:"Brewing a better beer for Africa",
@@ -151,8 +151,44 @@ app.controller('featuredCtrl', function($scope) {
     },
     {
       category:"Travel",
-      publication:" ",
+      publication:"Corde",
       featured:true,
+      logo:"fortune-logo.jpg",
+      title:"Brewing a better beer for Africa",
+      date: "June 24, 2011",
+      description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
+      link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
+      className:"travel",
+      page:"travel.html"
+    },
+    {
+      category:"Travel",
+      publication:"Town",
+      featured:false,
+      logo:"fortune-logo.jpg",
+      title:"Brewing a better beer for Africa",
+      date: "June 24, 2011",
+      description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
+      link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
+      className:"travel",
+      page:"travel.html"
+    },
+    {
+      category:"Travel",
+      publication:"NGA",
+      featured:false,
+      logo:"fortune-logo.jpg",
+      title:"Brewing a better beer for Africa",
+      date: "June 24, 2011",
+      description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
+      link:"http://fortune.com/2011/06/24/brewing-a-better-beer-for-africa/",
+      className:"travel",
+      page:"travel.html"
+    },
+    {
+      category:"Travel",
+      publication:"Marie",
+      featured:false,
       logo:"fortune-logo.jpg",
       title:"Brewing a better beer for Africa",
       date: "June 24, 2011",

@@ -196,6 +196,10 @@ h6 {
 
 button {
   float: right;
+  border-radius: 15%;
+  padding: auto 25px;
+  background-color: white;
+  border:1px solid #4062BB;
 }
 footer {
   margin-top: 100px;
@@ -210,12 +214,6 @@ footer section {
 }
 .box {
   border: 1px solid black;
-}
-button {
-  border-radius: 15%;
-  padding: auto 25px;
-  background-color: white;
-  border:1px solid #4062BB;
 }
 .content a {
   color: #4062BB;
@@ -276,6 +274,32 @@ button {
   font-size: 26px;
   margin-right: 25px;
   color: #4062BB;
+}
+.currentpg {
+  text-decoration: underline;
+}
+.mobileNav {
+  display: none;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+.mobileNav > ul {
+  display: none;
+}
+.hamburgerNav {
+  display: none;
+  float: left;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.cross {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-size: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -340,9 +364,18 @@ button {
   .container > section {
     width: 40%;
   }
+  header ul {
+    display: none;
+  }
+  .hamburgerNav {
+    display: block;
+  }
 }
 
 @media  (max-width:767px) and (orientation:landscape) {
+  header ul {
+    display: none;
+  }
   .corner {
     display: none;
   }
@@ -374,6 +407,9 @@ button {
   }
   .container > section {
     width: 40%;
+  }
+  .hamburgerNav {
+    display: block;
   }
 }
 @media  (max-width:767px) and (orientation:portrait) {
@@ -419,5 +455,8 @@ button {
   }
   .container > section {
     width: 100%;
+  }
+  .hamburgerNav {
+    display: block;
   }
 }
