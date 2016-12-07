@@ -11,13 +11,13 @@
 </head>
 <body ng-controller="featuredCtrl">
   <header>
-    <button class="hamburgerNav">
+    <section class="hamburgerNav">
       <i class="fa fa-bars" aria-hidden="true"></i>
-    </button>
+    </section>
     <section class="mobileNav">
-      <button class="cross">
+      <section class="cross">
         <i class="fa fa-times" aria-hidden="true"></i>
-      </button>
+      </section>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -62,7 +62,7 @@
           <h4><a href="{{article.page}}">{{article.title}}</a></h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
-          <button type="button" name="button"><a target="_blank" href="{{article.link}}">Read More</a></button>
+          <section type="button" name="button"><a target="_blank" href="{{article.link}}">Read More</a></button>
         </div>
       </section>
     </section>
