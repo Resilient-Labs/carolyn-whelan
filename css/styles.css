@@ -328,6 +328,30 @@ footer section {
 .otherlogo {
   background-image: url(../img/columbia-bs.png);
 }
+.un-foundation {
+  background-image: url(../img/unf-logo.png);
+}
+.rock-logo {
+  background-image: url(../img/Rockefeller.png);
+}
+.sap {
+  background-image: url(../img/SAP-Logo.png);
+}
+.c-found {
+  background-image: url(../img/citi_foundation.png);
+}
+.inh {
+  background-image: url(../img/iht.jpg);
+}
+.WSJ {
+  background-image: url(../img/wsj.png);
+}
+.barron {
+  background-image: url(../img/Barrons_logo.png);
+}
+.marie-img {
+  background-image: url(../img/marie_claire_logo.jpg);
+}
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/

@@ -53,11 +53,12 @@
   <div class="large-wrapper">
     <section class="container">
       <h3>Corde Nast Traveler</h3>
-      <section ng-repeat="article in articles" ng-show="article.publication === 'Corde'">
+      <section ng-repeat="article in articles" ng-show="article.publication === 'Conde'">
         <div class="smaller">
-          <div class="ng-class: {{article.className}} box" >
+          <div class="ng-class: {{article.className}} box">
             <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <img ng-src="img/{{article.logo}}">
+            <div class="ng-class: {{article.imageClass}} bgimg">
+            </div>
           </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
@@ -68,9 +69,10 @@
       <h3>Town &amp; Country Travel</h3>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Town'">
         <div class="smaller">
-          <div class="ng-class: {{article.className}} box" >
+          <div class="ng-class: {{article.className}} box">
             <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <img ng-src="img/{{article.logo}}">
+            <div class="ng-class: {{article.imageClass}} bgimg">
+            </div>
           </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
@@ -81,9 +83,10 @@
       <h3>National Geographic Adventure</h3>
       <section ng-repeat="article in articles" ng-show="article.publication === 'NGA'">
         <div class="smaller">
-          <div class="ng-class: {{article.className}} box" >
+          <div class="ng-class: {{article.className}} box">
             <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <img ng-src="img/{{article.logo}}">
+            <div class="ng-class: {{article.imageClass}} bgimg">
+            </div>
           </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
@@ -94,9 +97,10 @@
       <h3>Marie Claire</h3>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Marie'">
         <div class="smaller">
-          <div class="ng-class: {{article.className}} box" >
+          <div class="ng-class: {{article.className}} box">
             <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <img ng-src="img/{{article.logo}}">
+            <div class="ng-class: {{article.imageClass}} bgimg">
+            </div>
           </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
