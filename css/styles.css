@@ -193,13 +193,9 @@ h6 {
 .content img {
   width: 100%;
 }
-
-button {
+.link-to-article {
   float: right;
-  border-radius: 15%;
-  padding: auto 25px;
-  background-color: white;
-  border:1px solid #4062BB;
+  text-decoration: underline;
 }
 footer {
   margin-top: 100px;
@@ -213,7 +209,7 @@ footer section {
   padding-bottom: 0.5px;
 }
 .box {
-  border: 1px solid black;
+  border: 1px solid #ddd;
 }
 .content a {
   color: #4062BB;
@@ -233,12 +229,16 @@ footer section {
 .self-bio {
   width: 50%;
 }
+.smaller .box {
+  height: 230px;
+}
 .smaller img {
   width: 100%;
 }
 .smaller h6 {
   margin-top: 0;
   padding: 5px 15px;
+  color: #fff;
 }
 .flex-container {
   display: flex;
@@ -249,14 +249,16 @@ footer section {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .container h3 {
   width: 100%;
+  padding-left: 15px;
 }
 .container > section {
-  width: 22%;
+  width: 25%;
   margin-bottom: 30px;
+  padding: 15px;
 }
 .style {
   border: 2px solid black;
@@ -301,7 +303,31 @@ footer section {
   left: 15px;
   font-size: 40px;
 }
-
+.bgimg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 200px;
+}
+.eiu {
+  background-image: url(../img/EIU_logo2x.png);
+}
+.fortune {
+  background-image: url(../img/fortune-logo.jpg);
+}
+.newslogo {
+  background-image: url(../img/newsweek-logo.png);
+}
+.sciencelogo {
+  background-image: url(../img/Scientific_American_logo.svg_.png);
+}
+.travellogo {
+  background-image: url(../img/nga.png);
+}
+.otherlogo {
+  background-image: url(../img/columbia-bs.png);
+}
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
@@ -322,6 +348,7 @@ footer section {
   }
   aside .box {
     width: 60%;
+    border: none;
   }
   .content {
     width: 100%;
@@ -354,6 +381,7 @@ footer section {
   }
   aside .box {
     width: 60%;
+    border: none;
   }
   .content {
     width: 100%;

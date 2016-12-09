@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://use.fontawesome.com/caa8e53472.js"></script>
 </head>
-<body ng-controller="featuredCtrl">
+<body ng-controller="featuredCtrl" ng-cloak>
   <header>
     <section class="hamburgerNav">
       <i class="fa fa-bars" aria-hidden="true"></i>
@@ -65,14 +65,15 @@
     <section class="content">
       <h2>Featured Articles</h2>
       <section ng-repeat="article in articles" ng-show="article.featured">
-        <div class="ng-class: {{article.className}} box" >
-          <a href="#"><h6>{{article.category}}</h6></a>
-          <img ng-src="img/{{article.logo}}">
+        <div class="ng-class: {{article.className}} box">
+          <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
+          <div class="ng-class: {{article.imageClass}} bgimg">
+          </div>
         </div>
-        <h4><a href="{{article.page}}">{{article.title}}</a></h4>
+        <h4>{{article.title}}</h4>
         <h5>{{article.date}}</h5>
         <p>{{article.description}}</p>
-        <button type="button" name="button"><a target="_blank" href="{{article.link}}">Read More</a></button>
+        <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
       </section>
     </section>
   </div>
