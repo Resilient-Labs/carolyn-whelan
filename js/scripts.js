@@ -288,7 +288,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"News",
       publication:"Newsweek",
-      featured:true,
+      featured:false,
       logo:"newsweek-logo.png",
       title:"A Cheap-Peso Boom",
       date: "May 19, 2003",
@@ -301,7 +301,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"News",
       publication:"Newsweek",
-      featured:true,
+      featured:false,
       logo:"newsweek-logo.png",
       title:"A Province That Works",
       date: "June 24, 2011",
@@ -327,7 +327,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Science",
       publication:"sciAm",
-      featured:true,
+      featured:false,
       logo:"Scientific_American_logo.svg_.png",
       title:"The Doctor Is Out, but New Patient Monitoring and Robotics Technology Is In",
       date: "June 24, 2011",
@@ -340,7 +340,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Science",
       publication:"sciAm",
-      featured:true,
+      featured:false,
       logo:"Scientific_American_logo.svg_.png",
       title:"How to Reduce Car-Made Pollution? Tune Up the Existing Technology",
       date: "June 24, 2011",
@@ -353,7 +353,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Science",
       publication:"sciAm",
-      featured:true,
+      featured:false,
       logo:"Scientific_American_logo.svg_.png",
       title:"Blooms Away: The Real Price of Flowers",
       date: "June 24, 2011",
@@ -366,7 +366,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Science",
       publication:"sciAm",
-      featured:true,
+      featured:false,
       logo:"Scientific_American_logo.svg_.png",
       title:"Is the Sun Setting on Solar Power in Spain?",
       date: "June 24, 2011",
