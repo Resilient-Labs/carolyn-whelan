@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://use.fontawesome.com/caa8e53472.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto" rel="stylesheet">
 </head>
 <body ng-controller="featuredCtrl" ng-cloak>
   <header>
@@ -55,9 +56,9 @@
       <h3>Newsweek</h3>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Newsweek'">
         <div class="smaller">
-          <div class="ng-class: {{article.className}} box">
+          <div class="{{article.className}} box">
             <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <div class="ng-class: {{article.imageClass}} bgimg">
+            <div class="{{article.imageClass}} bgimg">
             </div>
           </div>
           <h4>{{article.title}}</h4>

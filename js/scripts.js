@@ -438,7 +438,7 @@ app.controller('featuredCtrl', function($scope) {
       link:"#",
       className:"travel",
       page:"travel.html",
-
+      imageClass:"conde"
     },
     {
       category:"Other",
@@ -452,6 +452,19 @@ app.controller('featuredCtrl', function($scope) {
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
+    },
+    {
+      category:"Other",
+      publication:"Ernst & Young",
+      featured:false,
+      logo:"columbia-bs.png",
+      title:"",
+      date: "June 24, 2011",
+      description:"Fortune -- A guy walks into a bar and orders a pint of beer. But this isn't a pub in London or a sports bar in Milwaukee -- it's a watering hole in Uganda.",
+      link:"#",
+      className:"other",
+      page:"other.html",
+      imageClass:"ey"
     }
   ];
 });

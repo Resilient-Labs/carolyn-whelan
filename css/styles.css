@@ -21,12 +21,25 @@ a {
 --------------------------------------------------------------*/
 
 h1 {
+  font-family: 'Roboto', sans-serif;
 }
 h2 {
+  font-family: 'Roboto', sans-serif;
 }
-h3 {}
-h4 {}
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h4 {
+  font-family: 'EB Garamond', serif;
+}
 p {
+  font-family: 'Roboto', sans-serif;
+}
+span {
+  font-family: 'EB Garamond', serif;
+}
+h6 {
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -207,12 +220,14 @@ footer section {
   width: 100%;
   padding-top: 9px;
   padding-bottom: 0.5px;
+  font-family: 'EB Garamond', serif;
 }
 .box {
   border: 1px solid #ddd;
 }
 .content a {
   color: #4062BB;
+  font-family: 'EB Garamond', serif;
 }
 
 .circle-picture {
@@ -231,6 +246,7 @@ footer section {
 }
 .smaller .box {
   height: 230px;
+  overflow: hidden;
 }
 .smaller img {
   width: 100%;
@@ -351,6 +367,12 @@ footer section {
 }
 .marie-img {
   background-image: url(../img/marie_claire_logo.jpg);
+}
+.conde {
+  background-image: url(../img/conde.jpg);
+}
+.ey {
+  background-image: url(../img/EY.gif);
 }
 /*--------------------------------------------------------------
 # Media Queries
