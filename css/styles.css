@@ -50,7 +50,7 @@ p {
 --------------------------------------------------------------*/
 .wrapper {
   max-width: 980px;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 .med-wrapper{
@@ -106,7 +106,7 @@ header ul {
 
 }
 header ul li {
-
+ min-width: 100px;
 }
 header ul li a{
   font-size: 22px;
@@ -383,6 +383,9 @@ footer section {
   .container > section {
     width: 31%;
   }
+  footer > section {
+    text-align: left;
+  }
 }
 @media  (max-width:1024px) and (orientation:portrait) {
 
@@ -421,6 +424,13 @@ footer section {
   }
   .hamburgerNav {
     display: block;
+  }
+  .mobileNav{
+    transition-timing-function: ease-in;
+    transition: 30s;
+  }
+  footer > section {
+    text-align: left;
   }
 }
 
@@ -462,6 +472,17 @@ footer section {
   }
   .hamburgerNav {
     display: block;
+  }
+  .mobileNav{
+    transition-timing-function: ease-in;
+    transition: 30s;
+  }
+  footer > section {
+    text-align: left;
+  }
+  footer span {
+    margin: 10px;
+    padding: 10px;
   }
 }
 @media  (max-width:767px) and (orientation:portrait) {
@@ -510,5 +531,16 @@ footer section {
   }
   .hamburgerNav {
     display: block;
+  }
+  .mobileNav{
+    transition-timing-function: ease-in;
+    transition: 30s;
+  }
+  footer > section {
+    text-align: left;
+  }
+  footer span {
+    margin: 10px;
+    padding: 10px;
   }
 }
