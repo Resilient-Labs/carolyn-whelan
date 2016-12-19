@@ -215,6 +215,7 @@ footer {
   margin-top: 100px;
   color: white;
   background-color: grey;
+  padding: 40px;
 }
 footer section {
   border-top: 1px solid white;
@@ -298,13 +299,18 @@ footer section {
   text-decoration: underline;
 }
 .mobileNav {
+  margin-top: -15px;
   display: none;
-  text-align: center;
-  display: flex;
-  flex-flow: column;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #4062BB;
+  opacity: 1;
+  transition: .5s;
+  z-index: 9999998;
 }
-.mobileNav > ul {
-  display: none;
+.mobileNav ul > li > a {
+  color: #fff
 }
 .hamburgerNav {
   display: none;
@@ -319,6 +325,7 @@ footer section {
   top: 0;
   left: 15px;
   font-size: 40px;
+  z-index: 9999999;
 }
 .bgimg {
   background-size: contain;
@@ -452,8 +459,7 @@ footer section {
     display: block;
   }
   .mobileNav{
-    transition-timing-function: ease-in;
-    transition: 30s;
+
   }
   footer > section {
     text-align: left;
@@ -500,8 +506,7 @@ footer section {
     display: block;
   }
   .mobileNav{
-    transition-timing-function: ease-in;
-    transition: 30s;
+
   }
   footer > section {
     text-align: left;
@@ -559,8 +564,7 @@ footer section {
     display: block;
   }
   .mobileNav{
-    transition-timing-function: ease-in;
-    transition: 30s;
+
   }
   footer > section {
     text-align: left;
