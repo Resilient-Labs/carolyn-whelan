@@ -53,19 +53,16 @@
   </header>
   <div class="large-wrapper">
     <section class="container">
-      <h3>Newsweek</h3>
+      <div class="section-header">
+        <h3>Newsweek</h3>
+        <section class="containing-logo newslogo">
+        </section>
+      </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Newsweek'">
-        <div class="smaller">
-          <div class="{{article.className}} box">
-            <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <div class="{{article.imageClass}} bgimg">
-            </div>
-          </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
-        </div>
       </section>
     </section>
   </div>

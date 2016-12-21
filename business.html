@@ -53,61 +53,49 @@
   </header>
   <div class="large-wrapper">
     <section class="container">
-      <h3>Fortune</h3>
+      <div class="section-header">
+        <h3>Fortune</h3>
+        <section class="containing-logo fortune">
+        </section>
+      </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Fortune'">
-        <div class="smaller">
-          <div class="{{article.className}} box">
-            <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <div class="{{article.imageClass}} bgimg">
-            </div>
-          </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
-        </div>
       </section>
-      <h3>Internation Herald Tribune</h3>
+      <div class="section-header">
+        <h3>International Herald Tribune</h3>
+        <section class="containing-logo iht">
+        </section>
+      </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Internation Herald Tribune'">
-        <div class="smaller">
-          <div class="{{article.className}} box">
-            <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <div class="{{article.imageClass}} bgimg">
-            </div>
-          </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
-        </div>
       </section>
-      <h3>Wall Street Journal</h3>
+      <div class="section-header">
+        <h3>Wall Street Journal</h3>
+        <section class="containing-logo WSJ">
+        </section>
+      </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'WSJ'">
-        <div class="smaller">
-          <div class="{{article.className}} box">
-            <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <div class="{{article.imageClass}} bgimg">
-            </div>
-          </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
-        </div>
       </section>
-      <h3>Barrons.com</h3>
+      <div class="section-header">
+        <h3>Barrons Online</h3>
+        <section class="containing-logo barron">
+        </section>
+      </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Barrons'">
-        <div class="smaller">
-          <div class="{{article.className}} box">
-            <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <div class="{{article.imageClass}} bgimg">
-            </div>
-          </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
-        </div>
       </section>
     </section>
   </div>

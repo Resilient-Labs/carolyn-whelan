@@ -53,19 +53,17 @@
   </header>
   <div class="large-wrapper">
     <section class="container">
-      <h3>EIU</h3>
+      <div class="section-header">
+        <h3>Economist Intelligence Unit</h3>
+        <section class="containing-logo eiu">
+          <img src="img/EIU_logo2x.png" class="logo-img" alt="Public Policy Page with Economist Intelligence Unit">
+        </section>
+      </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'EIU'">
-        <div class="smaller">
-          <div class="{{article.className}} box">
-            <a href="{{article.page}}"><h6>{{article.category}}</h6></a>
-            <div class="{{article.imageClass}} bgimg">
-            </div>
-          </div>
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
-        </div>
       </section>
     </section>
   </div>

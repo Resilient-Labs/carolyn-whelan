@@ -78,6 +78,8 @@ h6 {
   max-width: 1440px;
   width: 90%;
   margin: 0 auto;
+}
+.large-wrapper.home-page {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -232,13 +234,10 @@ footer section {
   font-family: 'EB Garamond', serif;
 }
 
-.circle-picture {
+.bio-picture {
 	width: 300px;
 	height: 300px;
   background-image: url("https://www.eiuperspectives.economist.com/sites/default/files/styles/editor_manualcrop/public/1Carolyn%20Wheelancrop.jpg?itok=C-8-YjAV&c=2b20a8115bbb2d38dbd89ce26a6e84aa");
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
@@ -247,7 +246,7 @@ footer section {
   width: 50%;
 }
 .smaller .box {
-  height: 230px;
+  height: 115px;
   overflow: hidden;
 }
 .smaller img {
@@ -332,9 +331,9 @@ footer section {
   background-repeat: no-repeat;
   background-position: center;
   background-origin: content-box;
-  padding: 50px;
+  padding: 5px;
   width: 100%;
-  height: 200px;
+  height: 60px;
   margin: 0 auto;
 }
 .eiu {
@@ -367,11 +366,14 @@ footer section {
 .c-found {
   background-image: url(../img/citi_foundation.png);
 }
-.inh {
+.iht {
   background-image: url(../img/iht.jpg);
+  background-size: cover;
 }
 .WSJ {
   background-image: url(../img/wsj.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .barron {
   background-image: url(../img/Barrons_logo.png);
@@ -384,6 +386,29 @@ footer section {
 }
 .ey {
   background-image: url(../img/EY.gif);
+}
+.logo-img {
+  height: 50px;
+}
+.section-header {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  align-items: center;
+}
+.container .section-header h3 {
+  width: initial;
+  margin-right: 30px;
+}
+.containing-logo {
+  width: 200px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.containing-logo.WSJ {
+  width: 300px;
+  height: 25px;
 }
 /*--------------------------------------------------------------
 # Media Queries
