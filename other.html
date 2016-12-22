@@ -75,6 +75,28 @@
           <p>{{article.description}}</p>
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
       </section>
+      <div class="section-header">
+        <h3>United Nations &amp; National Geographic</h3>
+        <section class="containing-logo un-foundation">
+        </section>
+      </div>
+      <section ng-repeat="article in articles" ng-show="article.publication === 'UN'">
+          <h4>{{article.title}}</h4>
+          <h5>{{article.date}}</h5>
+          <p>{{article.description}}</p>
+          <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
+      </section>
+      <div class="section-header">
+        <h3>Digital Equipment Corporation</h3>
+        <section class="containing-logo ">
+        </section>
+      </div>
+      <section ng-repeat="article in articles" ng-show="article.publication === 'Digital'">
+          <h4>{{article.title}}</h4>
+          <h5>{{article.date}}</h5>
+          <p>{{article.description}}</p>
+          <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
+      </section>
     </section>
   </div>
   <footer>
