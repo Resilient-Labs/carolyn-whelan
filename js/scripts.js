@@ -60,7 +60,19 @@ app.controller('featuredCtrl', function($scope) {
       title:"A poll of young people across the world on their challenges, plans and aspirations for the future",
       date: "#",
       description:"Approximately 75 million youth globally are actively seeking meaningful employment. To effectively compete for economic opportunities and succeed in the 21st century economy, these young people will require a mix of education, employability, entrepreneurship, and leadership skills.",
-      link:"http://www.citigroup.com/citi/foundation/philanthropic-focus/youth-economic-opportunities.htm",
+      link:"http://www.citi.com/citi/foundation/programs/pathways-to-progress/accelerating-pathways/",
+      className:"public-policy",
+      page:"public-policy.html",
+      imageClass:"c-found"
+    },
+    {
+      category: "Public Policy",
+      publication:"EIU",
+      featured:false,
+      title:"Visionaries Unbound",
+      date: "#",
+      description:"After unheralded growth, the world is bumping up against its limits. Widespread affluence and urbanization have enriched many. But the rising tide also strains resources",
+      link:"http://www.visionariesunbound.com/",
       className:"public-policy",
       page:"public-policy.html",
       imageClass:"c-found"
@@ -727,7 +739,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Other",
       publication:"Ernst",
-      featured:true,
+      featured:false,
       logo:"columbia-bs.png",
       title:"America’s Private Enterprise Leadership Network for CFOs Perspectives",
       date: "#",
@@ -778,7 +790,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Other",
       publication:"Columbia",
-      featured:false,
+      featured:true,
       logo:"columbia-bs.png",
       title:"Parker petroleum in Jumandia",
       date: "September 4, 2007",
@@ -841,7 +853,7 @@ app.controller('featuredCtrl', function($scope) {
       imageClass:"otherlogo"
     },
     {
-      category:"Digital Equipment Corporation",
+      category:"Other",
       publication:"Digital",
       featured:false,
       logo:"columbia-bs.png",
