@@ -428,6 +428,12 @@ footer section {
   background-size: contain;
   background-repeat: no-repeat;
 }
+.containing-logo.iht {
+  min-width: 100px;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
 .containing-logo.WSJ {
   width: 300px;
   height: 25px;
