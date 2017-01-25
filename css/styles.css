@@ -136,6 +136,15 @@ header ul li a{
   font-size: 22px;
   font-weight: bold;
 }
+header span {
+  font-size: 20px;
+}
+.wrapper>span {
+  font-weight: bold;
+}
+.title-section {
+  text-align: center;
+}
 footer a {
   color: #fff;
 }
