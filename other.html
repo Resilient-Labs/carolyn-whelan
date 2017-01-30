@@ -50,10 +50,12 @@
       </nav>
     </div>
   </header>
+  <section class="title-section other-section">
+    <h2>Other</h2>
+  </section>
   <div class="large-wrapper">
     <section class="container">
       <div class="section-header">
-        <h3>Ernst &amp; Young</h3>
         <section class="containing-logo ey">
         </section>
       </div>
@@ -64,7 +66,6 @@
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
       </section>
       <div class="section-header">
-        <h3>Columbia Business School</h3>
         <section class="containing-logo otherlogo">
         </section>
       </div>
@@ -75,8 +76,9 @@
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
       </section>
       <div class="section-header">
-        <h3>United Nations &amp; National Geographic</h3>
         <section class="containing-logo un-foundation">
+        </section>
+        <section class="containing-logo itu">
         </section>
       </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'UN'">
@@ -86,8 +88,9 @@
           <a target="_blank" href="{{article.link}}" class="link-to-article">Read More</a>
       </section>
       <div class="section-header">
-        <h3>TRADE PUBLICATIONS AND CORPORATIONS</h3>
-        <section class="containing-logo ">
+        <section class="containing-logo todayNews">
+        </section>
+        <section class="containing-logo wwf">
         </section>
       </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Digital'">

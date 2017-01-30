@@ -36,7 +36,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Small business efforts to hire young people in the US",
       date: "February 10,2015",
       description:"Across the United States, small businesses are developing innovative strategies to hire and upskill young workers in ways that are both good for business, and that reduce the unemployment hardships that disproportionately impact disadvantaged young people.",
-      link:"https://www.eiuperspectives.economist.com/talent-education/innovations-youth-hiring/articles",
+      link:"https://www.eiuperspectives.economist.com/talent-education/innovations-youth-hiring",
       className:"public-policy",
       page:"public-policy.html",
       imageClass:"rock-logo"
@@ -132,7 +132,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Brazil is driving a revival in sugar cane fuel",
       date: "December 18, 2004",
       description:"For Ronaido Silveir Ribeiro, the future is here, and it's called ethanol. The Sao Paulo-based cab driver switched last year from gasoline and cannot see himself going back soon.",
-      link:"../pdf/Business & Investing - IHT row - no. 4 - Brazil is driving.pdf",
+      link:"pdf/Business & Investing - IHT row - no. 4 - Brazil is driving.pdf",
       className:"business",
       page:"business.html",
       imageClass:"inh"
@@ -157,7 +157,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Where fashion meets farming: Fast, sleek and expensive, vicua makes a comeback",
       date: "May 29, 2004",
       description:"The wet marshes of Wales are an unlikely place to raise guanacos, a camel-like breed whose brethren include llamas and alpacas.",
-      link:"../pdf/More IHT - 6 - Where fashion meets farming.pdf",
+      link:"pdf/More IHT - 6 - Where fashion meets farming.pdf",
       className:"business",
       page:"business.html",
       imageClass:"inh"
@@ -217,7 +217,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Early signals: A boom in Buenos Aires",
       date: "March 29, 2003",
       description:"Could Argentina be the next hot Latin property market? High-end apartments in Buenos Aires changed hands in January at a 24 percent faster cleip than in December",
-      link:"../pdf/More IHT - Article 11 - A boom in Buenos Aires.pdf",
+      link:"pdf/More IHT - Article 11 - A boom in Buenos Aires.pdf",
       className:"business",
       page:"business.html",
       imageClass:"inh"
@@ -241,7 +241,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"A Latin Revival",
       date: "August 23, 2003",
       description:"Latin America stocks have rallied nearly 30 percent in a year as investors have shrugged off fears of instability in Brazil in response to the market-friendly stance of the new president",
-      link:"../pdf/More IHT - 10 - Women's work.pdf",
+      link:"pdf/More IHT - 10 - Women's work.pdf",
       className:"business",
       page:"business.html",
       imageClass:"inh"
@@ -277,7 +277,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"CAC-40 Index May See Shuffle",
       date: "November 20, 2001",
       description:"PARIS -- Four times a year, French stock market officials meet behind closed doors to eject companies that no longer make the grade in the CAC-40 index and to name the firms that will replace them. This October, people in the know say, they decided to give it a miss. In a way, it's understandable.",
-      link:"../pdf/index-may-see.jpg",
+      link:"pdf/index-may-see.jpg",
       className:"business",
       page:"business.html",
       imageClass:"WSJ"
@@ -289,7 +289,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Aventis May Make Investors Queasy",
       date: "July 20, 2001",
       description:"PARIS -- Investors watching with hope as Aventis holds exclusive talks with Germany's Bayer AG over the sale of its CropScience unit might want to put the drug group under the microscope one more time.Selling CropScience, which is 76% owned by Aventis and 24% held by Schering AG, might well make life more difficult for Aventis .",
-      link:"../pdf/aventis.jpg",
+      link:"pdf/aventis.jpg",
       className:"business",
       page:"business.html",
       imageClass:"WSJ"
@@ -301,7 +301,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Prominent Scientists Break Away To Form Swiss Drug Company",
       date: "July 11, 2002",
       description:"PARIS - Several prominent scientist from GlaxoSmithKline PLC and Roche Holding AG are breaking away from their parent companies",
-      link:"../pdf/Business & Investing - WSJ row - article 3.pdf",
+      link:"pdf/Business & Investing - WSJ row - article 3.pdf",
       className:"business",
       page:"business.html",
       imageClass:"WSJ"
@@ -325,7 +325,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Weak Dollar Hinders Drug Makers",
       date: "July 12, 2002",
       description:"PARIS -- European drug companies that make their best returns in the U.S. will see some of that revenue evaporate as the dollar slips against key European currencies, adding to pressure over earnings uncertainty in the sector.",
-      link:"../pdf/weak-dollar.jpg",
+      link:"pdf/weak-dollar.jpg",
       className:"business",
       page:"business.html",
       imageClass:"WSJ"
@@ -473,7 +473,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Castro's Revenge: A Cuban oil rush is underway",
       date: "March 19, 2007",
       description:"Sometime later this year,less than 70 miles from Florida, a consortium of Spanish, Indian, and Norwegian companies will likely start drilling for oil.",
-      link:"../pdf/castro.pdf",
+      link:"pdf/castro.pdf",
       className:"business",
       page:"business.html",
       imageClass:"fortune"
@@ -486,7 +486,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Argentina: Cheap Steaks, High Stakes",
       date: "March 8, 2004",
       description:"It's summer in Buenos Aires, and revelers are spilling onto city streets. Hotels in seaside Mar del Plata bulge with businessmen, many of whom made big money",
-      link:"../pdf/More Fortune (top row) 5 - Cheap Steaks.pdf",
+      link:"pdf/More Fortune (top row) 5 - Cheap Steaks.pdf",
       className:"business",
       page:"business.html",
       imageClass:"fortune"
@@ -538,7 +538,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"India Discovers Latin America",
       date: "July 28, 2005",
       description:"Observes that India is focusing on Latin America for markets and resources. How Indian auto parts, drugs, textiles and machinery are beginning to make their mark in Latin markets; Trade details; Factors that are fueling the trade expansion, including India's relaxation of rules for outward investment, its increasing appetite for raw materials",
-      link:"http://connection.ebscohost.com/c/articles/17908378/india-discovers-latin-america",
+      link:"#",
       className:"business",
       page:"business.html",
       imageClass:"fortune"
@@ -551,7 +551,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"International First: Latin Outsourcing",
       date: "July 26, 2004",
       description:"Where does an Indian outsourcing company go when it wants to outsource? These days, it's likely to be Buenos Aires.",
-      link:"../pdf/More Fortune - no. 4 - Latin Outsourcing.pdf",
+      link:"pdf/More Fortune - no. 4 - Latin Outsourcing.pdf",
       className:"business",
       page:"business.html",
       imageClass:"fortune"
@@ -564,7 +564,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Easing The Misery",
       date: "July 16, 2004",
       description:"A small army of therapist soothes a troubled nation. Life got you down? In recent times, as an econimic depression wiped out bank savings and millions of jobs, all too many Argentines would have said yes.",
-      link:"../pdf/Landing page - News - Newsweek - Easing the misery.pdf",
+      link:"pdf/Landing page - News - Newsweek - Easing the misery.pdf",
       className:"news",
       page:"news.html",
       imageClass:"newslogo"
@@ -661,13 +661,26 @@ app.controller('featuredCtrl', function($scope) {
       imageClass:"sciencelogo"
     },
     {
+      category:"Science",
+      publication:"sciAm",
+      featured:false,
+      logo:"Scientific_American_logo.svg_.png",
+      title:"Different Strokes: New Lower-Pollution Auto Rickshaw Engines Could Save Lives and Curb Climate Change",
+      date: "April 6, 2012",
+      description:"On the outskirts of Seville, Spain, 600 rotating mirrors send shafts of light to a collector atop a soaring 380-foot- (115-meter-) tall tower. Its scalding 480-degree-Fahrenheit (250-degree-Celsius) steam drives a turbine generating a peak capacity of 11 megawatts (MW) of electricity for the national grid.",
+      link:"https://www.scientificamerican.com/article/better-engines-for-rickshaws/",
+      className:"science",
+      page:"science.html",
+      imageClass:"sciencelogo"
+    },
+    {
       category:"Travel",
       featured:true,
       logo:"nga.png",
       title:"NO REALLY, IT’S A HUT",
       date: "November 2009",
       description:"Set at 9,169 feet in the Swiss Alps, the Monte Rosa Hut is a three-hour, cross-glacier hike from a train station outside Zermatt (Rotenboden). So when it came time for a $6 million renovation, Swiss enginners faced a Matterhorn-size challenge.",
-      link:"../pdf/Travel landing page 1.pdf",
+      link:"pdf/Travel landing page 1.pdf",
       className:"travel",
       page:"travel.html",
       imageClass:"travellogo"
@@ -680,7 +693,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Buenos Aires Steps Lively",
       date: "December 15, 2006",
       description:"'Crises are painful, but you emerge stronger,' says Alan Faena, a fashion designer who partnered with designer Philippe Starack and a group of American investors",
-      link:"../pdf/Travel page 1 - Buenos Steps.pdf",
+      link:"pdf/Travel page 1 - Buenos Steps.pdf",
       className:"travel",
       page:"travel.html",
       imageClass:"sciencelogo"
@@ -693,7 +706,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Argentina uncorked",
       date: "February 2005",
       description:"Argentina's Aconagua-at 22,835 feet, the highest peak outside the Himalaya-offers Seven Summits cachet without requiring crack mountain skills.",
-      link:"../pdf/Travel 3 - Argentina uncorked.pdf",
+      link:"pdf/Travel 3 - Argentina uncorked.pdf",
       className:"travel",
       page:"travel.html",
       imageClass:"travellogo"
@@ -706,7 +719,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"More than a pretty face",
       date: "June 2007",
       description:"Seema Dhundia is used to being out in front: She was commander of the world's first all-female paramilitary in India; now she's heading up the first all-female U.N. peacekeeping force in Liberia.",
-      link:"../pdf/Travel p 2 - More than a pretty face.pdf",
+      link:"pdf/Travel p 2 - More than a pretty face.pdf",
       className:"travel",
       page:"travel.html",
       imageClass:"marie-img"
@@ -719,7 +732,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Word of Mouth: A New Vintage",
       date: "February 20, 2004",
       description:"Already on in-the-know oenophiles' itineraries, the wine route leading into the countryside from the provincial capital of Mendoza, Argentina, is uncorking as an increasingly enviable place to sip and sup.",
-      link:"../pdf/Travel 4 - Word of mouth.pdf",
+      link:"pdf/Travel 4 - Word of mouth.pdf",
       className:"travel",
       page:"travel.html",
       imageClass:"conde"
@@ -730,9 +743,9 @@ app.controller('featuredCtrl', function($scope) {
       featured:false,
       logo:"columbia-bs.png",
       title:"America’s Private Enterprise Leadership Network for CFOs Perspectives",
-      date: "#",
+      date: "2011",
       description:"On November 8, members of the American Private Enterprise Leadership Network will gather in Palm Springs, California, for their Fall Meeting.",
-      link:"../pdf/EY1.pdf",
+      link:"pdf/EY1.pdf",
       className:"other",
       page:"other.html",
       imageClass:"ey"
@@ -745,7 +758,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Due diligence on corrupt practices",
       date: "#",
       description:"Despite more than a decade of deal-making experience in the Middle East, Africa, Eastern Europe, Latin America and Asia, corporate investors in emerging markets still face many risks.",
-      link:"../pdf/ernst&young2.pdf",
+      link:"pdf/ernst&young2.pdf",
       className:"other",
       page:"other.html",
       imageClass:"ey"
@@ -756,9 +769,9 @@ app.controller('featuredCtrl', function($scope) {
       featured:false,
       logo:"columbia-bs.png",
       title:"National strategies for competitive advantage and growth through clenatech",
-      date: "#",
+      date: "2011",
       description:"As the world shifts to a resource-efficient and low-carbon economy to address the rising consumption of energy and raw materials, many countries are embracing national cleantech",
-      link:"../pdf/ernst&young3.pdf",
+      link:"pdf/ernst&young3.pdf",
       className:"other",
       page:"other.html",
       imageClass:"ey"
@@ -770,7 +783,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Global cleantech insights and trends report",
       date: "#",
       description:"The business landscape these days presents a new reality that forces us to face new business, financial, strategic and operational risks.",
-      link:"../pdf/ernst&young4.pdf",
+      link:"pdf/ernst&young4.pdf",
       className:"other",
       page:"other.html",
       imageClass:"ey"
@@ -796,7 +809,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Buying a diamond – Determinants of price",
       date: "January 2, 2008",
       description:"The diamond industry does not make it easy to comparison shop. How should a purchaser value a stone and what attributes determine a diamond's price?",
-      link:"../pdf/ColumbiaBusinessSchool2.pdf",
+      link:"pdf/ColumbiaBusinessSchool2.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -807,9 +820,9 @@ app.controller('featuredCtrl', function($scope) {
       featured:false,
       logo:"columbia-bs.png",
       title:"Behind the Small Packages Success Story",
-      date: "#",
+      date: "2008",
       description:"Single-serve packages are a hit in India and other poor nations, where shoppers buy sachets of shampoo for just pennies per day.",
-      link:"../pdf/ColumbiaBusinessSchool3.pdf",
+      link:"pdf/ColumbiaBusinessSchool3.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -820,9 +833,9 @@ app.controller('featuredCtrl', function($scope) {
       featured:false,
       logo:"columbia-bs.png",
       title:"Product Customization Decisions: Order Does Matter",
-      date: "#",
+      date: "2008",
       description:"In an unforgettable scene from When Harry Met Sally, Meg Ryan's high-maintenance character asks a waitress for dressing on the side, lightly toasted bread and endless other options,triggering a near apoplectic fit in dining companion Billy Crystal.",
-      link:"../pdf/ColumbiaBusinessSchool4.pdf",
+      link:"pdf/ColumbiaBusinessSchool4.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -835,7 +848,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Speech of ITU Secretary General at the opening of Telecom",
       date: "December 12, 2003",
       description:"ITU is the organizer of the TELECOM event. Founded back in 1865, it is the world's oldest intergovermmental body, and a United Nations agency.",
-      link:"../pdf/UN&NGOS.pdf",
+      link:"pdf/UN&NGOS.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -846,9 +859,9 @@ app.controller('featuredCtrl', function($scope) {
       featured:false,
       logo:"columbia-bs.png",
       title:"France Sauvage",
-      date: "#",
+      date: "August 1994",
       description:"St Tropez not your scene? Try one of WWF-France's 10 Gites Panda, or Panda Lodges, where binoculars, birdcall cassettes, and maps of the area's walks are standard guest amenities.",
-      link:"../pdf/More other - UN and NGOs - Article 2 - France Sauvage.pdf",
+      link:"pdf/More other - UN and NGOs - Article 2 - France Sauvage.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -859,9 +872,9 @@ app.controller('featuredCtrl', function($scope) {
       featured:false,
       logo:"columbia-bs.png",
       title:"Irian Jaya",
-      date: "#",
+      date: "July 1992",
       description:"Irian Jaya is one of only three places on earth where one can stand on now-capped montain peaks on the Equator. The name, Irian Jaya, is a combination of Biak dialct and Indonesian words that roughly means 'glorious shimmering land'.",
-      link:"../pdf/More other - UN and NGOs - Article 3 - Irian Jaya.pdf",
+      link:"pdf/More other - UN and NGOs - Article 3 - Irian Jaya.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -874,7 +887,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"US Senators Encourage Social Activism",
       date: "June 9, 1992",
       description:"On June 8, 40 young activist from the United States discussed their environmental priorities with eight American senators at Global Forum.",
-      link:"../pdf/'More other' page - UN and NGOs row - last article.pdf",
+      link:"pdf/'More other' page - UN and NGOs row - last article.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -887,7 +900,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Bluebook-Internal quarterly publication for senior managers with financial and company information",
       date: "March 1996",
       description:"Digital Equipment Corporation is the world's leader in open client/server solutions from personal computing to integrated worldwide information systems.",
-      link:"../pdf/Digital Equipment Corporation 1.pdf",
+      link:"pdf/Digital Equipment Corporation 1.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -897,10 +910,10 @@ app.controller('featuredCtrl', function($scope) {
       publication:"Digital",
       featured:false,
       logo:"columbia-bs.png",
-      title:"Today's News Creseadus better Quality",
+      title:"Today's Electronic News",
       date: "March 20, 1998",
       description:"The Boeing Company today disclosed a plan to steamline facilities, focus manufacturing and assembly operations, and eliminate redundant laboratories.",
-      link:"../pdf/More other - Trade publications and corporations - Article 1 (Today's news).pdf",
+      link:"pdf/More other - Trade publications and corporations - Article 1 (Today's news).pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -913,7 +926,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Web Adds to Flower Power",
       date: "May 4, 1998",
       description:"'I'll still wonder if the flowers were wet because the stems were damp or my palms were so sweaty,' said Jim McCann, president of 1-800-Flowers.",
-      link:"../pdf/More other - Trade publications and corporations - Article 2 - flower.pdf",
+      link:"pdf/More other - Trade publications and corporations - Article 2 - flower.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
@@ -926,7 +939,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Briefing Package",
       date: "July 19, 1996",
       description:"This is a Digital Confidential document but the contents can be used at your discretion as background in responding to internal and external questions.",
-      link:"../pdf/More other - Trade publications and corporations - Article 4 - Briefing package.pdf",
+      link:"pdf/More other - Trade publications and corporations - Article 4 - Briefing package.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"

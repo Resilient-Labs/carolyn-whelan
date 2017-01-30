@@ -50,12 +50,15 @@
       </nav>
     </div>
   </header>
+  <section class="title-section news-section">
+    <h2>News</h2>
+  </section>
   <div class="large-wrapper">
     <section class="container">
-      <div class="section-header">
-        <h3>Newsweek</h3>
+      <div class="section-header  under-title">
         <section class="containing-logo newslogo">
         </section>
+        <h3>Newsweek</h3>
       </div>
       <section ng-repeat="article in articles" ng-show="article.publication === 'Newsweek'" class="third">
           <h4>{{article.title}}</h4>
