@@ -450,15 +450,16 @@ footer section {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-  margin: 90px auto;
+  margin: 40px auto 120px;
 }
 .container .section-header h3 {
   width: initial;
   margin-right: 30px;
 }
 .containing-logo {
-  width: 200px;
-  height: 50px;
+  min-width: 200px;
+  max-width: 500px;
+  min-height: 100px;
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -470,9 +471,11 @@ footer section {
   text-align: center;
 }
 .containing-logo.iht {
-  min-width: 220px;
-  background-position: center;
   background-size: cover;
+}
+.containing-logo.otherlogo {
+  background-size: cover;
+  width: 500px;
 }
 .containing-logo.WSJ {
   width: 300px;
@@ -723,5 +726,15 @@ footer section {
   .tile-page > .container {
     width: 100%;
     padding: 0px 0px;
+  }
+  .containing-logo.otherlogo {
+    background-size: contain;;
+    width: 300px;
+  }
+  .business-section h2{
+    font-size: 24px;
+  }
+  .travel-section h2{
+    font-size: 24px;
   }
 }
