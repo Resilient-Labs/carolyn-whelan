@@ -940,6 +940,18 @@ app.controller('featuredCtrl', function($scope) {
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
+    },{
+      category:"Other",
+      publication:"Digital",
+      featured:false,
+      logo:"columbia-bs.png",
+      title:"Briefing Package",
+      date: "July 19, 1996",
+      description:"This is a Digital Confidential document but the contents can be used at your discretion as background in responding to internal and external questions.",
+      link:"pdf/More other - Trade publications and corporations - Article 4 - Briefing package.pdf",
+      className:"other",
+      page:"other.html",
+      imageClass:"otherlogo"
     },
     {
       category:"Other",
@@ -963,19 +975,6 @@ app.controller('featuredCtrl', function($scope) {
       date: "May 4, 1998",
       description:"'I'll still wonder if the flowers were wet because the stems were damp or my palms were so sweaty,' said Jim McCann, president of 1-800-Flowers.",
       link:"pdf/More other - Trade publications and corporations - Article 2 - flower.pdf",
-      className:"other",
-      page:"other.html",
-      imageClass:"otherlogo"
-    },
-    {
-      category:"Other",
-      publication:"Digital",
-      featured:false,
-      logo:"columbia-bs.png",
-      title:"Briefing Package",
-      date: "July 19, 1996",
-      description:"This is a Digital Confidential document but the contents can be used at your discretion as background in responding to internal and external questions.",
-      link:"pdf/More other - Trade publications and corporations - Article 4 - Briefing package.pdf",
       className:"other",
       page:"other.html",
       imageClass:"otherlogo"
