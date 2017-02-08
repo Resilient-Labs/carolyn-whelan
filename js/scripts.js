@@ -509,7 +509,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Castro's Revenge: A Cuban oil rush is underway",
       date: "March 19, 2007",
       description:"Sometime later this year,less than 70 miles from Florida, a consortium of Spanish, Indian, and Norwegian companies will likely start drilling for oil.",
-      link:"pdf/castro.pdf",
+      link:"http://archive.fortune.com/magazines/fortune/fortune_archive/2007/03/19/8402339/index.htm",
       className:"business",
       page:"business.html",
       imageClass:"fortune"
@@ -804,7 +804,7 @@ app.controller('featuredCtrl', function($scope) {
       publication:"Ernst",
       featured:false,
       logo:"columbia-bs.png",
-      title:"National strategies for competitive advantage and growth through clenatech",
+      title:"National strategies for competitive advantage and growth through cleantech",
       date: "2011",
       description:"As the world shifts to a resource-efficient and low-carbon economy to address the rising consumption of energy and raw materials, many countries are embracing national cleantech",
       link:"pdf/ernst&young3.pdf",

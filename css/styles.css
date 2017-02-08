@@ -458,7 +458,10 @@ footer section {
   background-image: url(../img/wwf-logo.png);
 }
 .todayNews {
-  background-image: url(../img/electronics-weekly-logo.png);
+  background-image: url(../img/electronicNewslogo.png);
+}
+.digital {
+  background-image: url(../img/digitalEquipment.gif);
 }
 .rock-logo {
   background-image: url(../img/Rockefeller.png);
